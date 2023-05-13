@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/response.css">
+    <link rel="icon" href="./PICS/theband.png" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>The Band</title>
+</head>
+<body>
+        <!-- Lists -->
+        <div class="lists">
+            <div class="list-section">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="navbar">
+                    <li ><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#tour">Tour</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="morenav">
+                        <a href="#">More 
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                        <ul class="subnav">
+                            <li>Merchandise</li>
+                            <li>Extras</li> 
+                            <li>Media</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Home -->
+        <div class="home">
+            <div class="home-section">
+                <p class="home-heading">
+                    Chicago
+                </p>
+                <p class="home-description">
+                    Thanks chicago- A night we wont forget!!
+                </p>
+            </div>
+        </div>
+        <!-- About -->
+        <div  id="about">
+            <div class="content-section" id="band">
+                <p class="content-heading">
+                    The Band
+                </p>
+                <p class="content-subheading">
+                    We love music
+                </p>
+                <p class="band-about">We have created a fictional band website.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+            </div>
+
+        </div>
+        <div class="membernames">
+            <h2>Our members</h2>
+        </div>
+        <div class="members" id="members"> 
+            <div class="box">
+                <p class="name s-col-full">Harry</p>
+                <img src="./PICS/harry.jpg" alt="">
+            </div>
+            <div class="box">
+                <p class="name s-col-full">Zayn</p>
+                <img src="./PICS/zaynmalik.jpg" alt="">
+            </div>
+            <div class="box">
+                <p class="name s-col-full">Liam</p>
+                <img src="./PICS/liam.jpg" alt="">
+            </div>
+        </div>
+        <!-- Tour -->
+        <div id="tour" class="tour-section">
+            <div class="content-section">
+                <p class="content-heading">
+                    Tour Dates
+                </p>
+                <p class="content-subheading">
+                    Remember to book your tickets
+                </p>
+                <div class="sold-tickets">
+                    <ul>
+                        <li>September
+                        <span>Sold out</span>
+                        </li>
+                        <li>October
+                            <span>Sold out</span>
+                        </li>
+                        <li>
+                            November
+                            <span class="number">3</span>
+                        </li>
+                    </ul>  
+                </div>
+                <div class="places-row">
+                    <div class="box s-col-full">
+                        <img src="./PICS/newyork.jpg" alt="" >
+                        <div class="place-name">New york</div>
+                        <div class="place-date"> Friday, 27 Nov 2016</div>
+                        <div class="place-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, recusandae.</div>
+                        <button class="btn">Buy tickets</button>
+                    </div>
+                    <div class="box s-col-full">
+                        <img src="./PICS/paris.jpg" alt="" >
+                        <div class="place-name">Paris</div>
+                        <div class="place-date"> Saturday, 28 Nov 2016</div>
+                        <div class="place-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, recusandae.</div>
+                        <button class="btn">Buy tickets</button>
+                    </div>
+                    <div class="box s-col-full">
+                        <img src="./PICS/sanfrancisco.jpg" alt="" >
+                        <div class="place-name">San Francisco</div>
+                        <div class="place-date"> Sunday, 29 Nov 2016</div>
+                        <div class="place-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, recusandae.</div>
+                        <button class="btn">Buy tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        
+        <!-- Contact -->
+        <div id="contact" class="content-section">
+            <p class="content-heading"> Contact US</p>
+            <p class="content-subheading">Fan? drop a note!</p>
+
+            <div class="contact-section">
+                <div class="contact-location s-col-full">
+                    <i class="contact-icon fa-sharp fa-solid fa-location-pin"></i>  Chicago, US<br>
+                    <i class="contact-icon fa-solid fa-phone"></i>  Phone: <a href="tel:=+00 151515">+00 151515</a><br>
+                    <i class="contact-icon fa-solid fa-envelope"></i>Email: <a href="mailto:mail@mail.com">mail@mail.com</a><br>
+                </div>
+                <div class="contact-form s-col-full">
+                    <form action="">
+                        <input type="text" placeholder="Name "  class="in1">
+                        <input type="email" placeholder="Email" class="in2">
+                        <input type="text" placeholder="Message">
+                        <button class="submit-btn"> Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Map -->
+        <div class="map">
+            <img src="./PICS/map.jpg" alt="">
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <div class="socials">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-snapchat"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="copyright">
+                Powered by <a href="w3.css">w3.css</a>
+            </div>
+            
+        </div>
+        
+</body>
+</html>
