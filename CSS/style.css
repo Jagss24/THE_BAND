@@ -102,6 +102,9 @@ h2{
     margin-bottom: 20px;
     color: black
 }
+#about{
+    padding-top: 50px;
+}
 #about .content-section .content-heading{
     font-size: 35px;
     text-align: center;
@@ -164,6 +167,7 @@ h2{
 }
 #tour{
     margin-top: 25px;
+    padding-top: 50px;
     background-color: #000;
 }
 #tour .content-section{
@@ -264,7 +268,9 @@ h2{
     color: #000;
     cursor: pointer;
 }
-
+#contact{
+    padding-top: 50px;
+}
 #contact .content-heading{
     font-size: 35px;
         text-align: center;
